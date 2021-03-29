@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.card-body {
+	min-height: 768px;
+}
+.tab-pane {
+	width: 50%;
+	margin: 50px auto;
+}
+.tab-pane.full-width {
+	width: 100%;
+	margin: 50px auto;
+}
+.tab-pane p,
+.tab-pane h5 {
+	text-align: center;
+	margin: 10px 0;
+}
+.input-group-addon,
+.form-control {
+	margin-bottom: 10px !important;
+}
+
+.datepicker td,
+.datepicker th {
+ width: 2.5rem;
+ height: 2.5rem;
+ font-size: 0.85rem;
+}
+
+.datepicker {
+ margin-bottom: 3rem;
+}
+#salariesInconme_details {
+	display: none;
+}
+#no-text{
+	display: none;
+}
+
+
+#exportBusiness.modal {
+	position: fixed;
+	top: 87px;
+}
+.modal-backdrop{
+	display: none;
+}
